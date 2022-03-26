@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: rgb(89, 161, 161);
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(89, 161, 161);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0,0.315);
+
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: White;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            color: red;
+            text-decoration: underline;
+            
+
+
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0,0,0,0.384);
+
+        }
+
+        article {
+            background-color: rgb(116, 129, 125);
+            color: black;
+        }
+
+        article > aside {
+            background-color: brown;
+            text-align: center;
+        }
+
+        footer {
+            
+            background-color: black;
+            color: #ffffff;
+            padding: 4px;
+            margin: 0px;
+            text-align: center;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <P>Esportes Tecnologia Política</P>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notcias sobre o Brasil</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni aspernatur natus voluptatem totam cum quisquam doloribus odit deserunt esse accusamus temporibus praesentium dolorum possimus eius perferendis voluptatibus, itaque exercitationem! Ullam!</p>
+                <aside>
+                    <p>Artigo escrito por Platão</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Jonathan</p>
+    </footer>
+    
+</body>
+</html>

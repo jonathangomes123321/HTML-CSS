@@ -1,0 +1,22 @@
+div.pai {
+    height: 400px;
+    width: 400px;
+    background-color: blue;
+    margin: auto;
+    left: 0px;
+    bottom: 0px;
+    top: 100px;
+    right: 100px;
+    position: relative;
+
+}
+
+.filho {
+   background-color: red;
+   width: 100px;
+   height: 100px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   margin: -50px 0px 0px -50px;
+}

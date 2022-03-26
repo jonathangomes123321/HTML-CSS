@@ -1,0 +1,16 @@
+@charset "UTF-8";
+body {
+    background-color: aqua;
+}
+
+h1 {
+    color: blue;
+    background-color: red;
+
+}
+
+#principal {
+    color: pink;
+    background-color: blueviolet;
+    text-align: center;
+}
